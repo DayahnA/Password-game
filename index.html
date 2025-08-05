@@ -6,19 +6,29 @@
   <link rel="stylesheet" type="text/css" href="newcss.css">
   
   <title>Dynamic Password Game</title>
-  
+  <style>
+        button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        </style>
 </head>
 <body>
     <div>
         <h2>HAPPY BIRTHDAY MOM!</h2> 
         <br>
         <h3>In order to open your gift, you need to play the game!</h3>
-        <form action="Bday_password.html">
-            <label for="game"><strong>Click below to start:</strong></label><br>
-            <br>
-            <br>
-            <input type="submit" value="Start!">
-        </form>
+        <button onclick="location.href='bday_password.html'">Start!</button>
     </div>
     
 </body>
