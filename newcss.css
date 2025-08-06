@@ -8,14 +8,8 @@ and open the template in the editor.
     Author     : dayahn
 */
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      display: center;
-      align-items: center;
-      min-height: 100vh;
-      text-align: center;
       background-image: url("https://i.pinimg.com/564x/9f/66/43/9f664336e64cd7a346f42daa9cb51e19.jpg");
-      background-size: contain; /* Scales image to cover the whole page */
+      background-size:contain; /* Scales image to cover the whole page */
       background-position: center center; /* Center the image */
       background-repeat: no-repeat; /* Prevents repeating */
  
@@ -28,7 +22,7 @@ and open the template in the editor.
       text-align: center;
       display: center;
       border-radius: 10px;
-      margin: 50px;
+      margin: 20px;
       background-color: #f2f2f2;
       padding: 50px;
     }
@@ -89,4 +83,14 @@ and open the template in the editor.
    .button [type=submit]:hover {
         background-color: #45a049;
     }
+
+    .front_ground{
+      font-family: Arial, sans-serif;
+      padding-top: 100px;
+      display: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
 
