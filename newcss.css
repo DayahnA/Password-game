@@ -12,7 +12,8 @@ and open the template in the editor.
       background-size:contain; /* Scales image to cover the whole page */
       background-position: center center; /* Center the image */
       background-repeat: no-repeat; /* Prevents repeating */
- 
+      box-sizing: border-box;
+      height: 100%;
       
     }
     .container {
