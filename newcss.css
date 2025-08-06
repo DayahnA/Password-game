@@ -16,7 +16,7 @@ and open the template in the editor.
       min-height: 100vh;
       text-align: center;
       background-image: url("https://i.pinimg.com/564x/9f/66/43/9f664336e64cd7a346f42daa9cb51e19.jpg");
-      background-size: cover; /* Scales image to cover the whole page */
+      background-size: contain; /* Scales image to cover the whole page */
       background-position: center center; /* Center the image */
       background-repeat: no-repeat; /* Prevents repeating */
  
