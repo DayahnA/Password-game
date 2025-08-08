@@ -105,7 +105,7 @@ and open the template in the editor.
         transform: translate(-50%, -50%);
         background-color: #ff4081;
         color: white;
-        padding: 20px 40px;
+        padding: 20px 20px;
         font-size: 24px;
         border-radius: 12px;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -123,5 +123,9 @@ and open the template in the editor.
             opacity: 1;
             transform: translate(-50%, -50%);
         }
+    }
+    
+    .short_message{
+        color: #d8bf99;
     }
 
